@@ -1,0 +1,18 @@
+body{
+    font-family: 'Merriweather', serif;
+}
+
+img{
+    max-width: 100%;
+}
+normal{
+    font-style: normal;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+{box-sizing: content-box;
+    width: 100%;
+}
