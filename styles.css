@@ -13,6 +13,19 @@ h1 {
     font-size: 40px;
 }
 
-box-sizing {
-    width: 100%;
+{
+box-sizing: border-box; 
+   
+}
+legend{
+  color:black;  
+    font-size: 1.4em;
+  font-weight: bold;
+    padding: 1.5px;
+}
+input:focus, textarea:focus{
+ overflow: inherit;
+    color: black;
+    width: auto;
+    height: auto;
 }

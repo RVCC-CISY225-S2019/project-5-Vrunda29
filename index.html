@@ -120,25 +120,29 @@
     <div>
         <section id="contact" class="form-container">
             <h1> Get in touch </h1>
+            <form method="post"  action="https://formspree.io/pvrund29@gmail.com">
             <fieldset>
                 <legend> Please Feel Free to Contact me anytime</legend>
-                <form method="post"  action="https://formspree.io/pvrund29@gmail.com">
-                    <p>Email</p>
+                
+                    <label for="email">Email</label>
+                    <br>
                     <input type="email" name="email">
-                    <br>
-                    <br>
+                    <br><br><br>
+                    <label for="message">Message</label> 
+                       <br>
+                        <textarea name="message" placeholder="Enter Message Here"></textarea>
+                    
+                    <br><br>
                     <fieldset>
                         <legend><label id="yes_no_radio">I would like a reply</label></legend>
                         <br><br><input type="radio" name="yes_no" checked>Yes
                         <br><br><input type="radio" name="yes_no" checked>No
                         </fieldset>
-                        <p>Message</p> 
-                        <textarea name="message" ></textarea>
-                    
-                    <br><br>
+                     <br>   
                     <button type="submit">Send Test</button>
-                </form>
+                
            </fieldset>
+           </form>
         </section>
     </div>
     <footer class="footer">
